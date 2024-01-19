@@ -16,7 +16,7 @@ function resetActivity() {
     if (timeSinceLastActivity > maxInactivityTime) {
       // L'utilisateur est inactif
       window.localStorage.removeItem(tokenName);
-      window.location.href = "login.html";
+      window.location.href = "index.html";
     }
     else if (timeSinceLastActivity < 1000) {
         // L'événement a été enregistré il y a moins d'une seconde, ignorez-le
@@ -138,8 +138,8 @@ function resetActivity() {
                         else {
                             window.localStorage.removeItem(tokenName);
                             
-                            if (!window.location.href.includes('login.html')) {
-                                window.location.href = 'login.html';
+                            if (!window.location.href.includes('index.html')) {
+                                window.location.href = 'index.html';
                             }
                         }
                     }

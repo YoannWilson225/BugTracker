@@ -10,6 +10,6 @@ window.addEventListener('DOMContentLoaded', function() {
   
       }
       else if (window.location.href.includes('dashboard.html')) {
-          window.location.href = 'login.html';
+          window.location.href = 'index.html';
       }
 })
