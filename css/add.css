@@ -1,0 +1,62 @@
+body {
+    overflow-x: hidden;
+    background: #eee;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+#videInput {
+    display: none;
+}
+
+#addsuccess {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.alert {
+    width: 90%;
+}
+
+.form-group {
+    width: 50%;
+}
+
+.titre2 {
+    padding-top: 50px;
+    padding-left: 65px;
+}
+
+
+.titre {
+    padding-top: 50px;
+}
+
+.titre h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #2f2fa2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#logo {
+    padding-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+li {
+    padding-left: 25px;
+}
+
+
+.form-container {
+    margin-top: 50px;
+    padding-left: 65px;
+}
+
+
+ 

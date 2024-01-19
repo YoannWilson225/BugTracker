@@ -1,0 +1,75 @@
+body {
+    overflow-x: hidden;
+    background: #eee;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+#logoutmessage {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.alert {
+    width: 100%;
+    position: absolute;
+}
+
+
+.thetab {
+    padding-top: 100px;
+}
+
+.titre2 {
+    padding-top: 50px;
+    padding-left: 65px;
+}
+
+#logout {
+    margin-left: 65px;
+    font-weight: 600;
+}
+
+.titre {
+    padding-top: 50px;
+}
+
+.titre h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #2f2fa2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.count{
+    padding-top: 8px;
+}
+
+
+#logo {
+    padding-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+li {
+    padding-left: 25px;
+}
+
+.notBug p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.notBug {
+    display: none;
+}

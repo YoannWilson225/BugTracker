@@ -1,0 +1,109 @@
+body {
+    background: #eee;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title h1 {
+    color: #2f2fa2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title2 {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.title2 h1 {
+    color: #2f2fa2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#login-form-container {
+    border-radius: 20px;
+    color: white;
+    background: black;
+    padding: 20px;
+    width: 400px;
+    height: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#register-form-container {
+    border-radius: 20px;
+    color: white;
+    background: black;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#login-form-container .form-title,
+#register-form-container .form-title {
+    text-align: center;
+}
+
+
+#login-form input,
+#register-form input {
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    border: 1px solid #b2b2b2dd;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+
+.alert {
+    width: 100%;
+    position: absolute;
+}
+
+#successmessage {
+    display: none;
+}
+
+#errormessage {
+    display: none;
+}
+
+label {
+    padding-top: 15px;
+}
+
+#login-form input[type="submit"],
+#register-form input[type="submit"]{
+    margin-top: 20px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #2f2fa2;
+    color: white;
+    font-weight: bold;
+}
+
+
+#login-form-container a,#register-form-container a {
+    color:  #2f2fa2;
+    text-decoration: none;
+}
+
+
+
+
