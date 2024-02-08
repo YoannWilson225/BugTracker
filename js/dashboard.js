@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 window.localStorage.removeItem(tokenName);
 
                 setTimeout(function () {
-                    window.location.href = 'login.html';
+                    window.location.href = 'index.html';
                 }, 1000);
             }else{
                 alert('déconnexion impossible');
